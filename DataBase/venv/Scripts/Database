@@ -1,4 +1,0 @@
-# Data inladen
-data = pd.readcsv('C:/Users/roang/PycharmProjects/PS_2021.09.27_05.25.58.csv')
-print(data.head(n=10))
-
