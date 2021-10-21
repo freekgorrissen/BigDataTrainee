@@ -11,8 +11,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from numpy.polynomial import polynomial as P
 from sklearn.linear_model import LinearRegression as LR
 import scipy as sp
+from sklearn.metrics import r2_score
 
 ##def Create_frame():
 ##    df = pd.read_csv("C:/Users/Julian/Documents/Traineeship Projecten/Eindproject/DISCOS Data.txt") ##read our data to a dataframe and do cleaning operations...
@@ -79,16 +81,27 @@ def Create_kessler_plot():
     x = []
     for index in y.index:
         x.append(int(index))
+    x_old = x
+
     x = np.array(x).reshape(-1,1)
-    plt.plot(x,y.values)
-    plt.xlabel("Year")
-    plt.ylabel("Amount of objects")
-    plt.title("Amount of objects in space (cumulative)")
+    plt.plot(x,y.values, label="DISCOS Database")
+    plt.xlabel("Jaar")
+    plt.ylabel("Aantal objecten")
+    plt.title("Aantal objecten in de ruimte (cumulatief)")
     model = LR()
     model.fit(x, y.values)
     x_trend = np.array(range(1957,2051,1))
     y_trend = model.intercept_+model.coef_*x_trend
-    plt.plot(x_trend, y_trend)
+    #print(model.intercept_, model.coef_)
+    plt.plot(x_trend, y_trend, label="Lineaire fit")
+
+##    for i in range(1,6):                                                          Do polynomial fits and determine R**2 fits
+##        exp_model = np.poly1d(np.polyfit(x_old, y.values, i))
+##        plt.plot(x_trend, exp_model(x_trend), label = "Degrees:" +str(i))
+##        print(r2_score(y.values, exp_model(x_old)))
+##    print(r2_score(y.values, model.intercept_+model.coef_*x_old))
+
+    plt.legend()
     plt.show()
 
 def Object_info():
@@ -105,14 +118,14 @@ def Payload_bar():
     y = Object_info()
     title_list = ["Payload","Junk"]
     plt.bar(title_list, y[1])
-    plt.ylabel("Amount of objects")
-    plt.title("Bar graph showing junk versus functional payloads in space.")
+    plt.ylabel("Aantal objecten")
+    plt.title("Staafgrafiek van junk versus functionele payloads in de ruimte.")
     plt.text(0, 6047, str(6047), ha = "center")
     plt.text(1, 23444, str(23444), ha = "center")
     plt.show()
 
-Payload_bar()
-#Create_kessler_plot()
-#print(Count_launches())
-#print(Kessler_density()[0:3])
+##Payload_bar()
+Create_kessler_plot()
+##print(Count_launches())
+##print(Kessler_density()[0:3])
 
