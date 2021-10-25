@@ -7,6 +7,7 @@ mydb = mysql.connector.connect(
   password="",
   database="raketten"
 )
+
 mycursor = mydb.cursor()
 
 def insert(raket):

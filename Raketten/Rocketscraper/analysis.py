@@ -17,8 +17,8 @@ mydb = mysql.connector.connect(
 
 
 def read_db(masslow=-1, masshigh=4000000, yearlow=-1, yearhigh=3000):
-    """Functie die een sql query uitvoert en omzet naar pandas dataframe. Alle raketten met een massa groter (default)
-    of kleiner (operator = '<') dan de mass parameter worden gelezen."""
+    """Functie die een sql query uitvoert en omzet naar pandas dataframe. Binnen een bepaalde massa en jaar range worden
+    uitgelezen."""
     cmd = "SELECT * from launch_vehicles WHERE massa BETWEEN {} AND {} "\
         "AND jaar BETWEEN {} AND {}".format(masslow, masshigh, yearlow, yearhigh)
     df = pd.read_sql(cmd, mydb)

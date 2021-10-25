@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 def printtime(start=True):
     startmsg = "Starttijd: "
     endmsg = "Eindtijd: "

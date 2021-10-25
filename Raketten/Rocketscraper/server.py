@@ -32,3 +32,10 @@ async def read_item(min_mass: int):
     json_out = json.dumps(rq)
     # return json
     return json_out
+
+
+@app.get("/")
+async def root():
+    msg = "Welkom in de raket database. Ga naar /rockets/# en geef op de # plaats op wat de minimale massa is voor je" \
+          " raketten. Je krijgt een JSON terug."
+    return msg
