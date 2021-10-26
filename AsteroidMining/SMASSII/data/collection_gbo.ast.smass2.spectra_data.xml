@@ -1,0 +1,5503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Collection xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:gbo.ast.smass2.spectra:data</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Small Main-Belt Asteroid Spectroscopic Survey, Phase II V1.0</title>
+    <information_model_version>1.10.0.0</information_model_version>
+    <product_class>Product_Collection</product_class>
+    <Citation_Information>
+      <author_list>Bus, S. and Binzel, R.P.</author_list>
+      <publication_year>2020</publication_year>
+      <description>This data set contains visible-wavelength (0.435-0.925 micron) spectra for 1341
+main-belt asteroids observed during the second phase of the Small Main-belt  Asteroid
+Spectroscopic Survey (SMASSII) between August 1993 and March 1999.  The purpose of
+the SMASSII survey was to provide a new basis for studying the compositional
+diversity and structure of the asteroid belt.  Based on experiences gained from the
+earlier SMASS survey, SMASSII focused on producing an even larger, internally
+consistent set of CCD spectra for small (D &lt; 20 km) main-belt asteroids.  The
+observing strategies and procedures used during SMASSII roughly parallel those used
+in the first survey (Xu et al. Icarus 115 1-35, 1995), though several minor changes
+were made in instrumentation and in portions of the data reduction process.</description>
+    </Citation_Information>
+  </Identification_Area>
+  <Context_Area>
+    <Time_Coordinates>
+      <start_date_time>1993-08-21T10:48:51Z</start_date_time>
+      <stop_date_time>1999-03-24T11:52:45Z</stop_date_time>
+    </Time_Coordinates>
+    <Primary_Result_Summary>
+      <purpose>Science</purpose>
+      <processing_level>Partially Processed</processing_level>
+      <Science_Facets>
+        <wavelength_range>Visible</wavelength_range>
+        <discipline_name>Spectroscopy</discipline_name>
+        <facet1>Tabulated</facet1>
+      </Science_Facets>
+    </Primary_Result_Summary>
+    <Investigation_Area>
+      <name>None</name>
+      <type>Other Investigation</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:investigation:individual.none</lid_reference>
+        <reference_type>collection_to_investigation</reference_type>
+      </Internal_Reference>
+    </Investigation_Area>
+    <Observing_System>
+      <Observing_System_Component>
+        <name>1.3-m Tinsley Cassegrain/Coude reflector</name>
+        <type>Telescope</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:mdm.tinsley1m3</lid_reference>
+          <reference_type>is_telescope</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>McGraw-Hill Observatory</name>
+        <type>Observatory</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:facility:observatory.mdm</lid_reference>
+          <reference_type>is_facility</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>Mark III Spectrograph</name>
+        <type>Instrument</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument:mdm.markiii</lid_reference>
+          <reference_type>is_instrument</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+    </Observing_System>
+    <Observing_System>
+      <Observing_System_Component>
+        <name>2.4-m Hiltner Ritchey-Chretien equatorial reflector</name>
+        <type>Telescope</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:mdm.hiltner2m4</lid_reference>
+          <reference_type>is_telescope</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>McGraw-Hill Observatory</name>
+        <type>Observatory</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:facility:observatory.mdm</lid_reference>
+          <reference_type>is_facility</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>Mark III Spectrograph</name>
+        <type>Instrument</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument:mdm.markiii</lid_reference>
+          <reference_type>is_instrument</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+    </Observing_System>
+    <Target_Identification>
+      <name>(140) SIWA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2912) LAPALMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4352) KYOTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4701) MILANI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2305) KING</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(245) VERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5563) 1991 VZ1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1541) ESTONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(125) LIBERATRIX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(634) UTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3151) TALBOT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4276) CLIFFORD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4382) STRAVINSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(70) PANOPAEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2118) FLAGSTAFF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7564) GOKUMENON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1041) ASTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(188) MENIPPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2106) HUGO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3306) BYRON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3809) AMICI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4649) SUMOTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(606) BRANGANE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1785) WURM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1135) COLCHIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1830) POGSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3340) YINHAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(670) OTTEGEBE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1147) STAVROPOLIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1348) MICHEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7817) ZIBITURTLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(50) VIRGINIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(625) XENIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(338) BUDROSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3435) BOURY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(147) PROTOGENEIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5184) CAVAILLE-COLL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(192) NAUSIKAA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(26) PROSERPINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8516) HYAKKAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6500) KODAIRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1424) SUNDMANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1618) DAWN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(897) LYSISTRATA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2813) ZAPPALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4591) BRYANTSEV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(133) CYRENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1777) GEHRELS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4200) SHIZUKAGOZEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4686) MAISICA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1998) WS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(741) BOTOLPHIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5261) EUREKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(354) ELEONORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(478) TERGESTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5588) JENNABELLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(154) BERTHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(170) MARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(211) ISOLDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3759) PIIRONEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2902) WESTERLUND</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2246) BOWELL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6582) FLAGSYMPHONY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(868) LOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1594) DANJON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(228) AGATHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3389) SINZOT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4993) COSSARD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(301) BAVARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1176) LUCIDOR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2504) GAVIOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5965) 1990 SV15</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(106) DIONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4512) SINUHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(153) HILDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(230) ATHAMANTIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2875) LAGERKVIST</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6071) SAKITAMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2038) BISTRO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3037) ALKU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4968) SUZAMUR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(306) UNITAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(504) CORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(815) COPPELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(912) MARITIMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(159) AEMILIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(15) EUNOMIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2631) ZHEJIANG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3900) KNEZEVIC</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3395) JITKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3775) ELLENBETH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4909) COUTEAU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6509) GIOVANNIPRATESI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(98) IANTHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1094) SIBERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2681) OSTROVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3491) FRIDOLIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3813) FORTOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1056) AZALEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4945) IKENOZENNI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(826) HENRIKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(12) VICTORIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4951) IWAMOTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2271) KISO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(181) EUCHARIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1052) BELGICA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(193) AMBROSIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(387) AQUITANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(759) VINIFERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1848) DELVAUX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1659) PUNKAHARJU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(358) APOLLONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(10473) THIROUIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(105) ARTEMIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(539) PAMINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(564) DUDU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3635) KREUTZ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2141) SIMFEROPOL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3265) FLETCHER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(103) HERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2370) VAN ALTENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(631) PHILIPPINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1882) RAUMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(17) THETIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(269) JUSTITIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(136) AUSTRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(984) GRETIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(162) LAURENTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(161) ATHOR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(90) ANTIOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3678) MONGMANWAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2147) KHARADZE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(378) HOLMIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(476) HEDWIG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(383) JANINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(795) FINI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(753) TIFLIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1071) BRITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3074) POPOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2575) BULGARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1214) RICHILDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(592) BATHSEBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(177) IRMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5242) KENREIMONIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4804) PASTEUR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(194) PROKNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(534) NASSOVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(973) ARALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2559) SVOBODA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5318) DIENTZENHOFER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4718) ARAKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(30) URANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6078) BURT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4774) HOBETSU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(279) THULE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(808) MERXIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5010) AMENEMHET</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(345) TERCIDINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(677) AALTJE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2086) NEWELL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1433) GERAMTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4982) BARTINI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3307) ATHABASCA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1502) ARENDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(152) ATALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1539) BORRELLY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(208) LACRIMOSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2917) SAWYER HOGG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(679) PAX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1730) MARCELINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1385) GELRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1534) NASI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(547) PRAXEDIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2444) LEDERLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3885) BOGORODSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1271) ISERGINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3406) OMSK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4619) POLYAKHOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(481) EMITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4726) FEDERER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1490) LIMPOPO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(494) VIRTUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7225) HUNTRESS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(642) CLARA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1086) NATA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3865) LINDBLOOM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(205) MARTHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3020) NAUDTS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1783) ALBITSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3654) AAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(554) PERAGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7081) LUDIBUNDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4547) MASSACHUSETTS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(668) DORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2818) JUVENALIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(46) HESTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1228) SCABIOSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4265) KANI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(88) THISBE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4570) RUNCORN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3762) AMARAVELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1329) ELIANE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(179) KLYTAEMNESTRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(56) MELETE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(399) PERSEPHONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5348) KENNOGUCHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1702) KALAHARI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3704) GAOSHIQI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4706) DENNISREUTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5595) ROTH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7405) 1988 FF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1929) KOLLAA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1301) YVONNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3546) ATANASOFF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(122) GERDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2401) AEHLITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1601) PATRY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(507) LAODICA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(674) RACHELE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3249) MUSASHINO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(87) SYLVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(737) AREQUIPA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5344) RYABOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7304) NAMIKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(824) ANASTASIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3474) LINSLEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(886) WASHINGTONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8008) 1988 TQ4</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3363) BOWEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2430) BRUCE HELIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1332) MARCONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3576) GALINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1891) GONDOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3314) BEALS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(142) POLANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(9970) 1992 ST1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2852) DECLERCQ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(130) ELEKTRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(261) PRYMNO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(377) CAMPANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7451) VERBITSKAYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(189) PHTHIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(783) NORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(751) FAINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1474) BEIRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(336) LACADIERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4304) GEICHENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4786) TATIANINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1304) AROSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(410) CHLORIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(337) DEVOSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3796) LENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(543) CHARLOTTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1110) JAROSLAWA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2402) SATPAEV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1716) PETER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3371) GIACCONI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(747) WINCHESTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2754) EFIMOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1015) CHRISTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1970) SUMERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(353) RUPERTO-CAROLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2930) EURIPIDES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2446) LUNACHARSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2369) CHEKHOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(331) ETHERIDGEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2448) SHOLOKHOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3311) PODOBED</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3587) DESCARTES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5892) MILESDAVIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(980) ANACOSTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1188) GOTHLANDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(384) BURDIGALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1903) ADZHIMUSHKAJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5690) 1992 EU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(247) EUKRATE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2244) TESLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(395) DELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(167) URDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2744) BIRGITTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1751) HERGET</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3862) AGEKIAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7404) 1988 AA5</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6086) VRCHLICKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3713) PIETERS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8334) 1984 CF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4733) ORO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1734) ZHONGOLOVICH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4548) WIELEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(720) BOHLINIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4082) SWANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4311) ZGURIDI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2640) HALLSTROM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3248) FARINELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(327) COLUMBIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(281) LUCRETIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(365) CORDUBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(180) GARUMNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(398) ADMETE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6585) O'KEEFE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2567) ELBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1638) RUANDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3844) LUJIAXI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3850) PELTIER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(523) ADA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(288) GLAUKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1542) SCHALEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4284) KAHO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5195) KAENDLER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(51) NEMAUSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1336) ZEELANDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(742) EDISONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1284) LATVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(134) SOPHROSYNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4737) KILADZE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2851) HARBIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(101) HELENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1977) SHURA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(119) ALTHAEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4426) ROERICH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2085) HENAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(924) TONI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2107) ILMARI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2582) HARIMAYA-BASHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3175) NETTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1839) RAGAZZA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2736) OPS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7245) 1991 RN10</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(785) ZWETANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3542) TANJIAZHEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(614) PIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(174) PHAEDRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3209) BUCHWALD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1664) FELIX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(201) PENELOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3155) LEE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3443) LEETSUNGDAO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1351) UZBEKISTANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2973) PAOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1857) PARCHOMENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2579) SPARTACUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2675) TOLKIEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>Multiple Asteroids</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(675) LUDMILLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3827) ZDENEKHORSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3873) RODDY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(845) NAEMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3767) DIMAGGIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1251) HEDERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1798) WATTS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(844) LEONTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(75) EURYDIKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(638) MOIRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(84) KLIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(462) ERIPHYLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1021) FLAMMARIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1045) MICHELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(24) THEMIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(994) OTTHILD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2251) TIKHOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(513) CENTESIMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(107) CAMILLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3971) VORONIKHIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6146) ADAMKRAFFT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(62) ERATO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(13) EGERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3737) BECKMAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(584) SEMIRAMIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4036) WHITEHOUSE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(898) HILDEGARD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1738) OOSTERHOFF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1480) AUNUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4292) AOBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2386) NIKONOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2911) MIAHELENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5079) BRUBECK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(622) ESTHER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(186) CELUTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(416) VATICANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3563) CANTERBURY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(458) HERCYNIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1724) VLADIMIR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1904) MASSEVITCH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1729) BERYL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2708) BURNS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(109) FELICITAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2635) HUGGINS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(263) DRESDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(460) SCANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6386) KEITHNOLL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2604) MARSHAK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3287) OLMSTEAD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(453) TEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1560) STRATTONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(164) EVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(35) LEUKOTHEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2042) SITARSKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1635) BOHRMANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(485) GENUA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(519) SYLVANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1128) ASTRID</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(286) ICLEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1603) NEVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3040) KOZAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7211) XERXES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2715) MIELIKKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4215) KAMO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(28) BELLONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(553) KUNDRY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(65) CYBELE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(997) PRISKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1888) ZU CHONG-ZHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(14) IRENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4917) YURILVOVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(61) DANAE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(386) SIEGENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5108) LUBECK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(278) PAULINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(233) ASTEROPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(360) CARLOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1494) SAVO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4845) TSUBETSU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(21) LUTETIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5553) CHODAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6907) HARRYFORD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1025) RIEMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(250) BETTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(856) BACKLUNDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1386) STORERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(266) ALINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4033) YATSUGATAKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(556) PHYLLIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4) VESTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(60) ECHO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1104) SYRINGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(729) WATSONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(735) MARGHANNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1373) CINCINNATI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4536) DREWPINSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3782) CELLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2346) LILIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(491) CARINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1517) BEOGRAD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5840) RAYBROWN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(496) GRYPHIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(531) ZERLINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3670) NORTHCOTT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(925) ALPHONSINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3376) ARMANDHAMMER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7) IRIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1020) ARCADIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(521) BRIXIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(687) TINETTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2331) PARVULESCO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(102) MIRIAM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3394) BANNO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1022) OLYMPIADA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1201) STRENUA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1799) KOUSSEVITZKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5234) SECHENOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(516) AMHERSTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(779) NINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(200) DYNAMENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1102) PEPITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6005) 1989 BD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(375) URSULA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2354) LAVROV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(321) FLORENTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(853) NANSENIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(971) ALSATIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2089) CETACEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(304) OLGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4434) NIKULIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2152) HANNIBAL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4182) MOUNT LOCKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2547) HUBEI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(579) SIDONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7056) KIERKEGAARD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2952) LILLIPUTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(781) KARTVELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(160) UNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3262) MIUNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3526) JEFFBELL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1234) ELYNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(63) AUSONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6354) VANGELIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1014) SEMPHYRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2507) BOBONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1252) CELESTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2509) CHUKOTKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(135) HERTHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3642) FRIEDEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(95) ARETHUSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1140) CRIMEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(409) ASPASIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5103) DIVIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(246) ASPORINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(671) CARNEGIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2704) JULIAN LOEWE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4610) KAJOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(934) THURINGIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(226) WERINGIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4611) VULKANEIFEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3364) ZDENKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(392) WILHELMINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(895) HELIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3417) TAMBLYN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5081) SANGUIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(782) MONTEFIORE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(363) PADUA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2194) ARPOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(423) DIOTIMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1107) LICTORIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1634) NDOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(388) CHARYBDIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3375) AMY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(374) BURGUNDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7224) VESNINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1055) TYNKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3192) A'HEARN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2737) KOTKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5685) SANENOBUFUKUI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(731) SORGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(776) BERBERICIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6211) TSUBAME</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(78) DIANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(115) THYRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1930) LUCIFER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2762) FOWLER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(425) CORNELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(431) NEPHELE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2157) ASHBROOK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5647) SAROJININAIDU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1548) PALOMAA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1587) KAHRSTEDT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(175) ANDROMACHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(58) CONCORDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2772) DUGAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5534) 1941 UN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3458) BODUOGNAT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(34) CIRCE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2957) TATSUO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3829) GUNMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1148) RARAHU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(965) ANGELICA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3198) WALLONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(236) HONORIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(144) VIBILIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2396) KOCHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4051) HATANAKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(396) AEOLIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2185) GUANGDONG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4516) PUGOVKIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1352) WAWEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(99913) 1997 CZ5</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2371) DIMITROV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2720) PYOTR PERVYJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3534) SAX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3430) BRADFIELD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4135) SVETLANOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(69) HESPERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(611) VALERIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3701) PURKYNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(393) LAMPETIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1262) SNIADECKIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4817) GLIBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6) HEBE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2508) ALUPKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5552) STUDNICKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(715) TRANSVAALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5240) KWASAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3611) DABU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5134) EBILSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1428) MOMBASA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(484) PITTSBURGHIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(165) LORELEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3858) DORCHESTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8450) EGOROV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1323) TUGELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4997) KSANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(148) GALLIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3647) DERMOTT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(397) VIENNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(129) ANTIGONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1493) SIGRID</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5632) INGELEHMANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2468) REPIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3800) KARAYUSUF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3365) RECOGNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3841) DICICCO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4923) CLARKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2022) WEST</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(85) IO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1680) PER BRAHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6192) JAVIERGOROSABEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(673) EDDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(443) PHOTOGRAPHICA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(111) ATE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2501) LOHJA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2521) HEIDI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5091) ISAKOVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(112) IPHIGENIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3734) WALAND</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6364) CASARINI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1204) RENZIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2864) SODERBLOM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3628) BOZNEMCOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4628) LAPLACE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1483) HAKOILA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(413) EDBURGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1300) MARCELLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1706) DIECKVOSS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(187) LAMBERTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1562) GONDOLATSCH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(355) GABRIELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7763) CRABEELS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(359) GEORGIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(569) MISA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1106) CYDONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(127) JOHANNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3349) MANAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4096) KUSHIRO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(804) HISPANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1640) NEMO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(773) IRMINTRAUD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2881) MEIDEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(191) KOLGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2380) HEILONGJIANG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1076) VIOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1600) VYSSOTSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2949) KAVERZNEV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(114) KASSANDRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(541) DEBORAH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1048) FEODOSIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5159) BURBINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3686) ANTOKU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1458) MINEURA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2789) FOSHAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4422) JARRE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1471) TORNIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(128) NEMESIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(866) FATME</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1088) MITAKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1263) VARSAVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2099) OPIK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2801) HUYGENS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1406) KOMPPA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6906) JOHNMILLS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2750) LOVIISA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4256) KAGAMIGAWA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4272) ENTSUJI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4944) KOZLOVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2527) GREGORY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(596) SCHEILA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(961) GUNNIE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(206) HERSILIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1807) SLOVAKIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7728) GIBLIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3669) VERTINSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(23) THALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4995) GRIFFIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4297) EICHHORN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4719) BURNABY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(985) ROSINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(258) TYCHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(166) RHODOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6592) GOYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(80) SAPPHO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1653) YAKHONTOVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4107) RUFINO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(79) EURYNOME</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2988) KORHONEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(207) HEDDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1520) IMATRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(414) LIRIOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(578) HAPPELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4342) FREUD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(702) ALAUDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(342) ENDYMION</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3949) MACH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(402) CHLOE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(444) GYPTIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(600) MUSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6782) 1990 SU10</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4682) BYKOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3440) STAMPFER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1565) LEMAITRE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(511) DAVIDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(649) JOSEFA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(190) ISMENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4037) IKEYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2060) CHIRON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(26209) 1997 RD1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(282) CLORINDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3137) HORKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4287) TRISOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2732) WITT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3687) DZUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2335) JAMES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(178) BELISANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3007) REAVES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(38) LEDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7604) KRIDSADAPORN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3985) RAYBATSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1294) ANTWERPIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(173) INO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(209) DIDO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(116) SIRONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3169) OSTRO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3861) LORENZ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1185) NIKKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3090) TJOSSEM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4713) STEEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(555) NORMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(372) PALMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2035) STEARNS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(633) ZELIMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(37) FIDES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1189) TERENTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5416) ESTREMADOYRO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(244) SITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2390) NEZARKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(64) ANGELINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5133) PHILLIPADAMS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(970) PRIMULA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4942) MUNROE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2167) ERIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(477) ITALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(242) KRIEMHILD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(381) MYRRHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5069) TOKEIDAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1017) JACQUELINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2834) CHRISTY CAROL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3214) MAKARENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3920) AUBIGNAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2410) MORRISON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(241) GERMANIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(705) ERMINIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5111) JACLIFF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2465) WILSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3) JUNO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5397) VOJISLAVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4607) SEILANDFARM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(48) DORIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4396) GRESSMANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1152) PAWONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1968) MEHLTRETTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1936) LUGANO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5102) BENFRANKLIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6283) 1980 VX1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2328) ROBESON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3910) LISZT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1726) HOFFMEISTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3976) LISE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2428) KAMENYAR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1374) ISORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1858) LOBACHEVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3684) BERRY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1563) NOEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3630) LUBOMIR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(597) BANDUSIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(237) COELESTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4417) LECAR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(89) JULIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(490) VERITAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(560) DELILA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(10504) DOGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4435) HOLT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(151) ABUNDANTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1836) KOMAROV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(470) KILIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5482) KORANKEI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(308) POLYXO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5196) BUSTELLI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(10199) CHARIKLO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3579) ROCKHOLT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1007) PAWLOWIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2258) VIIPURI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3744) HORN-D'ARTURO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2809) VERNADSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(559) NANON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2840) KALLAVESI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3181) AHNERT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2378) PANNEKOEK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2791) PARADISE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2427) KOBZAR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3320) NAMBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1715) SALLI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5) ASTRAEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(110) LYDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4678) NINIAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5243) CLASIEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(240) VANADIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(860) URSINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5610) BALSTER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(563) SULEIKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2353) ALVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4188) KITEZH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(757) PORTLANDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3636) PAJDUSAKOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3451) MENTOR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(150) NUWA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(184) DEJOPEJA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(17480) 1991 PE10</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2934) ARISTOPHANES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3309) BRORFELDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(792) METCALFIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4261) GEKKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1131) PORZIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2827) VELLAMO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4372) QUINCY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(512) TAURINENSIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1069) PLANCKIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1293) SONJA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3833) CALINGASTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1248 )JUGURTHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2598) MERLIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2746) HISSAO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1667) PELS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5448) SIEBOLD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5641) MCCLEESE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2748) PATRICK GENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(139) JUEWA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1058) GRUBBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1187) AFRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2029) BINOMI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2733) HAMINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4900) MAYMELOU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3345) TARKOVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4479) CHARLIEPARKER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2409) CHAPMAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2625) JACK LONDON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(627) CHARIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(171) OPHELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4194) SWEITZER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(405) THIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7170) LIVESEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(42) ISIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1797) SCHAUMASSE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(322) PHAEO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(257) SILESIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4604) STEKARSTROM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(29) AMPHITRITE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2879) SHIMIZU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(52) EUROPA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2925) BEATTY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3788) STEYAERT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4910) KAWASATO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(146) LUCINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2874) JIM YOUNG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5379) ABEHIROSHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5253) FREDCLIFFORD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5333) KANAYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(872) HOLDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4116) ELACHI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4156) OKADANOBORU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(551) ORTRUD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3170) DZHANIBEKOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(253) MATHILDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(295) THERESIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4838) BILLMCLAUGHLIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(950) AHRENSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(905) UNIVERSITAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(389) INDUSTRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8333) 1982 VF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1196) SHEBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4369) SEIFERT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1155) AENNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(348) MAY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(739) MANDEVILLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5956) D'ALEMBERT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1065) AMUNDSENIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1660) WOOD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6716) 1990 RO1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4969) LAWRENCE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2169) TAIWAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4650) MORI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1695) WALBECK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2857) NOT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1831) NICHOLSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5329) DECARO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(929) ALGUNDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2040) CHALONGE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(57) MNEMOSYNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1860) BARBAROSSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2482) PERKIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(310) MARGARITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(121) HERMIONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1856) RUZENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3536) SCHLEICHER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4702) BEROUNKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4424) ARKHIPOVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(243) IDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(442) EICHSFELDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(352) GISELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2045) PEKING</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2566) KIRGHIZIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2065) SPICER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(586) THEKLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2560) SIEGMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4750) MUKAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(713) LUSCINIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2078) NANKING</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2478) TOKAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(870) MANTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(94) AURORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(275) SAPIENTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(767) BONDIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1508) KEMI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(234) BARBARA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(503) EVELYN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1016) ANITRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1264) LETABA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1747) WRIGHT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7397) 1986 QS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1847) STOBBE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1407) LINDELOF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3658) FELDMAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(196) PHILOMELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(412) ELISABETHA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1484) POSTREMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2467) KOLLONTAI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6410) FUJIWARA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6908) KUNIMOTO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1604) TOMBAUGH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1046) EDWIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(22449) OTTIJEFF</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2373) IMMO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(71) NIOBE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4534) RIMSKIJ-KORSAKOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4001) PTOLEMAEUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3712) KRAFT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(572) REBEKKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5230) ASAHINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(604) TEKMESSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(27) EUTERPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2) PALLAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1278) KENYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3533) TOYOTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3831) PETTENGILL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1360) TARKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1350) ROSSELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(66) MAJA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(32) POMONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2493) ELMER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1545) THERNOE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5330) SENRIKYU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(784) PICKERINGIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(796) SARITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2873) BINZEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(532) HERCULINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4072) YAYOI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(172) BAUCIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1024) HALE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(117) LOMIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3028) ZHANGGUOXI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(456) ABNOBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3819) ROBINSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4849) ARDENNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(771) LIBERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1593) FAGNES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4839) DAISETSUZAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2872) GENTELEC</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(33) POLYHYMNIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1212) FRANCETTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(156) XANTHIPPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1998) TITIUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2087) KOCHERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4711) KATHY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4853) MARIELUKAC</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2001) EINSTEIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2280) KUNIKOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5649) DONNASHIRLEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3972) RICHARD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(527) EURYANTHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3258) SOMNIUM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(951) GASPRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4390) MADRETERESA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(12281) CHAUMONT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2977) CHIVILIKHIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3792) PRESTON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(83) BEATRIX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6233) KIMURA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1403) IDELSONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(910) ANNELIESE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3581) ALVAREZ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5565) UKYOUNODAIBU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1427) RUVUMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2423) IBARRURI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3401) VANPHILOS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1948) KAMPALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(259) ALETHEIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(913) OTILA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2382) NONIE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4374) TADAMORI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4491) OTARU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(108) HECUBA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2953) VYSHESLAVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3367) ALEX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1550) TITO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2349) KURCHENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4327) RIES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(19) FORTUNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2906) CALTECH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(479) CAPRERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3567) ALVEMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(404) ARSINOE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5067) OCCIDENTAL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5214) OOZORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2511) PATTERSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3853) HAAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(11906) 1992 AE1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(216) KLEOPATRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2161) GRISSOM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2455) SOMVILLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(100480) 1996 UK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(376) GEOMETRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(749) MALZOVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(930) WESTPHALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4461) SAYAMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6077) MESSNER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2816) PIEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5510) 1988 RF7</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4280) SIMONENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(74) GALATEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3511) TSVETAEVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4340) DENCE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(141) LUMEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2905) PLASKETT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3566) LEVITAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4748) TOKIWAGOZEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(688) MELANIE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4222) NANCITA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(661) CLOELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4407) TAIHAKU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(39) LAETITIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(471) PAPAGENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3385) BRONNINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(704) INTERAMNIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1951) LICK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(403) CYANE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(123) BRUNHILD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(349) DEMBOWSKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4844) MATSUYAMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(169) ZELIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(317) ROXANE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2778) TANGSHAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(197) ARETE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2996) BOWMAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(716) BERKELEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6230) FRAM</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1186) TURNERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(629) BERNARDINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3903) KLIMENT OHRIDSKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2053) NUKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3493) STEPANOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5051) RALPH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5438) LORRE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3096) BEZRUC</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(862) FRANZIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1613) SMILEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3640) GOSTIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(82) ALKMENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(18) MELPOMENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1553) BAUERSFELDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5013) SUZHOUSANZHONG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3527) MCCORD</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3700) GEOWILLIAMS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(120) LACHESIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1327) NAMAQUA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(723) HAMMONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(113) AMALTHEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(267) TIRZA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5401) MINAMIODA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(16) PSYCHE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2088) SAHLIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2308) SCHILT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5485) KAULA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5467) 1988 AG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5492) THOMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5208) ROYER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(158) KORONIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4157) IZU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(47) AGLAJA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(264) LIBUSSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4343) TETSUYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(176) IDUNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1795) WOLTJER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2056) NANCY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2855) BASTIAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4305) CLAPTON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2282) ANDRES BELLO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(124) ALKESTE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(41) DAPHNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7562) KAGIROINO-OKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2064) THOMSEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(22) KALLIOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(379) HUENNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(118) PEITHO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(77) FRIGGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1414) JEROME</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(11785) SARGENT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5294) ONNETOH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1032) PAFURI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2730) BARKS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3860) PLOVDIV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2231) DURRELL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(945) BARCELONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1039) SONNEBERGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1181) LILITH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1692) SUBBOTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3121) TAMINES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(626) NOTBURGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2306) BAUSCHINGER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3085) DONNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4353) ONIZAKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(11) PARTHENOPE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(18514) 1996 TE11</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4977) RAUTHGUNDIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7512) MONICALAZZARIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2234) SCHMADEL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3575) ANYUTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(825) TANINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(93) MINERVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(198) AMPELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(706) HIRUNDO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1222) TINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(20) MASSALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5008) MIYAZAWAKENJI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(54) ALEXANDRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(43) ARIADNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(446) AETERNITAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4039) SOUSEKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(67) ASIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(941) MURRAY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3886) SHCHERBAKOVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(213) LILAEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5038) OVERBEEK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(533) SARA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(545) MESSALINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(819) BARNARDIANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5678) DUBRIDGE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2606) ODESSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2892) FILIPENKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6704) 1988 CJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(183) ISTRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3592) NEDBAL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(417) SUEVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1423) JOSE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(210) ISABELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4124) HERRIOT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(654) ZELINDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1098) HAKONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1331) SOLVEJG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1034) MOZARTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7110) JOHNPEARSE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2569) MADELINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2703) RODARI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3255) THOLEN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(289) NENETTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(821) FANNY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(653) BERENIKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3498) BELTON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(570) KYTHERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3710) BOGOSLOVSKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4558) JANESICK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2795) LEPAGE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4584) AKAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(145) ADEONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2807) KARL MARX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2268) SZMYTOWNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2451) DOLLFUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(391) INGEBORG</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(168) SIBYLLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2438) OLESHKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(441) BATHILDE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3645) FABINI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3254) BUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4299) WIYN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(45) EUGENIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3179) BERUTI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(346) HERMENTARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(366) VINCENTINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(185) EUNIKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6129) DEMOKRITOS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2019) VAN ALBADA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3849) INCIDENTIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(10) HYGIEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(789) LENA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4824) STRADONICE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2317) GALYA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(25) PHOCAEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(394) ARDUINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(863) BENKOELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2956) YEOMANS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5622) PERCYJULIAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(464) MEGAIRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(99) DIKE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(238) HYPATIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(515) ATHALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5227) BOCACARA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(92) UNDINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1642) HILL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2189) ZARAGOZA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4796) LEWIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(581) TAUNTONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(908) BUDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3416) DORRIT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(55) PANDORA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3256) DAGUERRE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2724) ORLOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3627) SAYERS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(8513) 1991 PK11</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(376713) 1995 WQ5</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4332) MILTON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4744) ROVERETO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1316) KASAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3224) IRKUTSK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4142) DERSU-UZALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5585) PARKS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4387) TANAKA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(272) ANTONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(847) AGNIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1372) HAREMARI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5349) PAULHARRIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(104) KLYMENE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(40) HARMONIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5142) OKUTAMA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1420) RADCLIFFE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(31) EUPHROSYNE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4950) HOUSE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1592) MATHIEU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(284) AMALIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(743) EUGENISIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1549) MIKKO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2929) HARRIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(7402) 1987 YH</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(712) BOLIVIANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(332) SIRI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1796) RIGA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1324) KNYSNA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(59) ELPIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1272) GEFION</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(163) ERIGONE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5732) 1988 WC</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2073) JANACEK</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3545) GAFFEY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2131) MAYALL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(143) ADRIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(754) MALABAR</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4523) MIT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5275) ZDISLAVA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3730) HURBAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1011) LAODAMIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(44) NYSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6249) JENNIFER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4884) BRAGARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1) CERES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(214) ASCHERA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3317) PARIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4767) SUTOKU</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(509) IOLANDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(601) NERTHUS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1139) ATAMI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3674) ERBISBUHL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(129493) 1995 BM2</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4205) DAVID HUGHES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(919) ILSEBILL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3507) VILAS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(4456) MAWSON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(339) DOROTHEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2861) LAMBRECHT</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1134) KEPLER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1343 )NICOLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(599) LUISA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(371) BOHEMIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3958) KOMENDANTOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(335) ROBERTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5817) ROBERTFRAZER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5407) 1992 AX</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(678) FREDEGUNDIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(793) ARIZONA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5087) EMEL'YANOV</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(221) EOS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(81) TERPSICHORE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5576) ALBANESE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(432) PYTHIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1510) CHARLOIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1567) ALIKOSKI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1705) TAPIO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3000) LEONARDO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(76) FREIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5392) PARKER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5364) 1980 RC1</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2659) MILLIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1277) DOLORES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5222) IOFFE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(195) EURYKLEIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1655) COMAS SOLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1932) JANSKY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1103) SEQUOIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1126) OTERO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(49) PALES</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(312) PIERRETTA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(907) RHODA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2653) PRINCIPIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2709) SAGAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(182) ELSA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2763) JEANS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(797) MONTANA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1923) OSIRIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>1996 PW</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3060) DELCANO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2850) MOZHAISKIJ</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6847) KUNZ-HALLSTEIN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(132) AETHRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1629) PECKER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(718) ERIDA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(131) VALA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(5591) KOYO</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(6669) OBI</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(571) DULCINEA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2629) RUDRA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3824) BRENDALEE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(91) AEGINA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(199) BYBLIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3197) WEISSMAN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1766) SLIPHER</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1989) TATRY</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1662) HOFFMANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(699) HELA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3065) SARAHILL</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(598) OCTAVIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1114) LORRAINE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2316) JO-ANN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(1768) APPENZELLA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(2955) NEWBURN</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(96) AEGLE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(814) TAURIS</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(100) HEKATE</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(3216) HARRINGTON</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+    <Target_Identification>
+      <name>(434) HUNGARIA</name>
+      <type>Asteroid</type>
+    </Target_Identification>
+  </Context_Area>
+  <Collection>
+    <collection_type>Data</collection_type>
+  </Collection>
+  <File_Area_Inventory>
+    <File>
+      <file_name>collection_gbo.ast.smass2.spectra_data_inventory.csv</file_name>
+      <local_identifier>data</local_identifier>
+      <records>1342</records>
+    </File>
+    <Inventory>
+      <offset unit="byte">0</offset>
+      <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+      <records>1342</records>
+      <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+      <field_delimiter>Comma</field_delimiter>
+      <Record_Delimited>
+        <fields>2</fields>
+        <groups>0</groups>
+        <Field_Delimited>
+          <name>Member Status</name>
+          <field_number>1</field_number>
+          <data_type>ASCII_String</data_type>
+          <maximum_field_length unit="byte">1</maximum_field_length>
+        </Field_Delimited>
+        <Field_Delimited>
+          <name>LIDVID_LID</name>
+          <field_number>2</field_number>
+          <data_type>ASCII_LIDVID_LID</data_type>
+          <maximum_field_length unit="byte">255</maximum_field_length>
+        </Field_Delimited>
+      </Record_Delimited>
+      <reference_type>inventory_has_member_product</reference_type>
+    </Inventory>
+  </File_Area_Inventory>
+</Product_Collection>
+

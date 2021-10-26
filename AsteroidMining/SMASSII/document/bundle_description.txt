@@ -1,0 +1,43 @@
+Description of the Small Main-Belt Asteroid Spectroscopic Survey, Phase II bundle V1.0
+======================================================================================
+
+Bundle Generation Date: 2020-09-10
+Peer Review: Neese_Richardson_Mueller_Migration
+Discipline node: Small Bodies Node
+
+
+Content description for the Small Main-Belt Asteroid Spectroscopic Survey, Phase II bundle
+==========================================================================================
+
+Note: This bundle was migrated to PDS4 from the PDS3 data set EAR-A-I0028-4-SBN0001/SMASSII-V1.0. For PDS3 data sets migrated to PDS4, the following text is taken verbatim from the data set description and confidence level note of the PDS3 data set catalog file. In these cases, some details may not be correct as a description of the PDS4 bundle.                                                            
+All observations were obtained at the Michigan-Dartmouth-MIT (MDM) Observatory on the southwest ridge of Kitt Peak in Arizona.  The majority of observations were made with the 2.4 m Hiltner telescope, with the remainder being made with the 1.3 m McGraw-Hill telescope.  The Mark III spectrograph was used throughout the SMASSII survey and was equipped with either a SITE 1024 x 1024 thinned, backside illuminated CCD (with 24-micron pixels), or a Loral 2048 x 2048 thick, front-side illuminated CCD (with 15-micron pixels).  The spectrograph was used with a low-resolution grism (150 lines per mm, blazed at 0.73 micron), giving a dispersion of roughly 0.001 micron per pixel.  A 4.5-arcsec wide slit, oriented in the north-south direction on the sky, was used for all observations, giving a spectral resolution of about 0.007 micron (R ~ 100).  To block the second-order spectrum that would otherwise have been superimposed on the first-order spectrum, a Wratten 22 filter was always placed over the long-wavelength half of the CCD dewar window.  This arrangement allowed for the entire first-order spectrum, covering the wavelength range from 0.4 to 1.0 micron, to be recorded in a single exposure.                                                            
+                                                                              
+All data reduction and calibration was carried out using tasks in the Image Reduction and Analysis Facility (IRAF), developed and maintained by NOAO.  Upon extraction of the 1-D spectra from the CCD images, the spectra were rebinned to a consistent dispersion of 0.0025 micron, allowing different spectra to be easily compared and combined.  A correction for atmospheric extinction was applied to the data using the airmass of each observation and a mean extinction model developed for Kitt Peak (based on Hayes and Latham, Ap.J. 197 593-601, 1975). 
+ Calibration of each asteroid spectrum in units of relative reflectance was achieved using one of four solar analog stars: 16CygB (HD186427), Hyades64 (HD28099), HR4486 (HD101177), and HR5384 (HD126053).                                                                 
+                                                                              
+ A total of 1341 spectra are included in the SMASSII survey.  The data have been published in Bus and Binzel (Icarus 158, 106-145, 2002) [BUS&BINZEL2002].  Details about the observations and data reduction procedures can be found therein.                                            
+                                                                              
+                                                                              
+Data File Description                                                       
+================                                                            
+ Each spectrum presented here contains up to 197 relative reflectance measurements over the spectral interval from 0.435 to 0.925 micron with a step size of 0.0025 micron.  Files may contain fewer that 197 points when specific spectral channels were rejected, usually due to poor cancellation of telluric bands.  All spectra have been scaled by fitting a polynomial over the region centered on 0.55 micron, and then normalizing the fitted value at 0.55 micron to 1.00.                                               
+                                                                              
+Column 1 -                                                                  
+Sampling Parameter Name:  WAVELENGTH                                        
+Sampling Parameter Unit:  MICROMETER                                        
+Minimum Sampling Parameter:  0.435                                          
+Maximum Sampling Parameter:  0.925                                          
+Column 2 -                                                                  
+Data Parameter Name:  RELATIVE REFLECTANCE                                  
+Data Parameter Unit:  DIMENSIONLESS                                         
+Column 3 -                                                                  
+Data Uncertainty Name:  RELATIVE REFLECTANCE ERROR                          
+Data Uncertainty Unit:  DIMENSIONLESS
+
+
+Caveats to the data user
+========================
+
+                                                   
+The uncertainty for each spectral channel was derived using Poisson statistics, and was based on the signal from both the object and sky, as well as the detector characteristics.  These errors do not include systematic uncertainties that, in particular, can affect the average slope as measured over the length of the spectrum.  A more complete discussion  of the confidence level for these data, and the potential contribution of systematic effects is given in Bus and Binzel 2002 [BUS&BINZEL2002].
+

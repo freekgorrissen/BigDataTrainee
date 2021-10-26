@@ -1,0 +1,11 @@
+Reference List for the Small Main-Belt Asteroid Spectroscopic Survey, Phase II bundle
+=====================================================================================
+
+Bus, S.J., and R.P. Binzel, Phase II of the Small Main-Belt Asteroid Spectroscopic Survey. The Observations. Icarus 158, 106-145, 2002. doi:10.1006/icar.2002.6857
+
+Hayes, D.S. and D.W. Latham, A rediscussion of the atmospheric extinction and the absolute spectral-energy distribution of VEGA, Astrophys. J. 197, 593-601, 1975. doi:10.1086/153548
+
+Lukac, M. R., and R. J. Miller. List of Active Professional Observatories. United States Naval Observatory Circular No. 178. Washington DC, 2000.
+
+Xu, S., R.P. Binzel, T.H. Burbine, and S.J. Bus, Small Main-belt Asteroid Spectroscopic Survey: Initial results, Icarus, 115, 1-35, 1995. doi:10.1006/icar.1995.1075
+

@@ -1,0 +1,20 @@
+McGraw-Hill Observatory 2.4-m Hiltner Ritchey-Chretien equatorial reflector
+===========================================================================
+
+Telescope Name: 2.4-m Hiltner Ritchey-Chretien equatorial reflector
+
+Observatory Name: McGraw-Hill Observatory
+
+Aperture (m): 2.4
+
+Latitude:   31.950001 /* +31 57 00.0 */
+
+Longitude: -111.616669 /* -111 37 00.01 E */
+
+Elevation (m): 1938
+
+Telescope Logical Id: urn:nasa:pds:context:telescope:mdm.hiltner2m4
+
+Notes: Operational 1985+; Michigan/Dartmouth/MIT tel.
+
+
