@@ -1,0 +1,25 @@
+Document Collection Contents
+
+The document collection contains documentation files, where available, for 
+this bundle. All document files will have an accompanying label file to 
+describe content and structure.  Label files have the same name as the main 
+document file, with an extension of ".xml".
+
+bundle_description.txt - Bundle description for the gbo.ast.smass2.spectra bundle - A document describing the content and structure of the bundle.
+
+ref.txt - Reference List - The reference list for the bundle.
+
+observatory.mdm.txt - Description document for McGraw-Hill Observatory - Description document for McGraw-Hill Observatory
+
+observatory.mdm.txt - Description document for McGraw-Hill Observatory - Description document for McGraw-Hill Observatory
+
+mdm.hiltner2m4.txt - Description for 2.4-m Hiltner Ritchey-Chretien equatorial reflector at McGraw-Hill Observatory - Description for 2.4-m Hiltner Ritchey-Chretien equatorial reflector at McGraw-Hill Observatory
+
+mdm.tinsley1m3.txt - Description for 1.3-m Tinsley Cassegrain/Coude reflector at McGraw-Hill Observatory - Description for 1.3-m Tinsley Cassegrain/Coude reflector at McGraw-Hill Observatory
+
+mdm.markiii.txt - Description Document for Mark III Spectrograph - A description of the Mark III Spectrograph instrument
+
+AA_Document_Index.txt - Document Index - The file you are reading.
+
+collection_gbo.ast.smass2.spectra_document_inventory.csv - Collection Inventory - An inventory of document products in this collection.
+
